@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* Group Selector */
+h1,h2{
+    color: blueviolet;
+}
+
+/* Child Selector */
+.box > p{
+    color: firebrick;
+}
+
+/* Descentend Selector - Child Selector not work because it is two level deep(Grand Child) from that  */
+.box li{
+color: blue;
+}
+
+/* Chaining Selector */
+li.done{
+    color:seagreen;
+}
+
+/* Combining Combiners */
+ul p.done{
+    font-size: 0.5rem;
+}

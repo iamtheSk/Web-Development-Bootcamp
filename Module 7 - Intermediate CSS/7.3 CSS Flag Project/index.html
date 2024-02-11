@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+
+    /* Red Rectangle */
+    .flag{
+      background-color: #ce1126;
+      height: 600px;
+      width: 900px;
+      position: relative;
+    }
+
+    /* Blue rectangle */
+    .flag > div{   /* Child Selector */
+      position: absolute;
+      background-color: #002868;
+      top: 150px;
+      height: 300px; /*  50% height of parent(Full rectangle) */
+      width: 100%; /*  100% width of parent(Full rectangle) */
+
+    }
+  
+    /* Inner Circle */
+    .flag > div > div{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: white;
+      position: relative;
+      top: 50px;
+      left: 350px;
+      align-items: center;
+    }
+
+    /* all paragraph margin set 0 because it down the inner circle */
+    p{
+      margin: 0;
+      font-size: 5rem;
+      text-align: center;
+    }
+
+     /* get correct selector by copy selector for inspect and find the tag and copy tag and paste it here */
+    body > div > div > div > p{
+      color: black;
+    }
+
+
+    .flag > p{
+      color: white;
+    }
+    body > p{
+      font-size: 30px;
+      color: blue;
+      margin-top: 50px;
+      right: 100%;
+      position: static;
+    }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements
+Use what you know about combining selectors
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+
+  <p>Cover on 14 june</p>
+</body>
+
+</html>
