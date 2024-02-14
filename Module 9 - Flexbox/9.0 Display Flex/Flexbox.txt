@@ -1,0 +1,28 @@
+Flexbox
+
+-->A lot of the web layout was originaly inspired by newspaper and magazine,articles which is where all these display inline display block float all comes from and over the years , the layout of the web has become more complex to the extent where it's no longer similar to magazine and a website has become far more complex and far more interactive.
+
+-->over the years,There have been many ways of implementing HTML and CSS to layout a website.
+--> one of the earliest ways actually using HTML. we have this things called tables so you could create a table element with table rows and table data to create something like this,a three column layout for your website and if you set the width of these three columns to different amounts EG: .col{ width:25%; } .col{ width:25%; } .col{ width:40%; }, then you can layout your web
+page like this with three boxes or cards. --> screen shot at 1.16
+
+-->the table element still very much use in mordern web desgin , but because it's in the html ,should really only be used when semantically you're actually trying to create a table.the tables a used cards of this shown represemt some data , how may visitors you had in may , then that is probably tabular data should be represented with a table element with a table element.
+but if you use the table just layout , the styling of your website , then this is very much no in mordern web design --> screenshot at 2.01
+
+-->much better tools now days for layout the webpage, after people stop using the table they use Display property probably you can set the 3 div and div a inline-block  , set the diff with for each div , there is one problem that is that all are not in one line at the top that all are not start the same line  rearrage that all in same line is quiet painfull process,Screenshot-->2.53 , solve this problem using the position absolute there also below some probelm not inflexible layout the bottom and not a great idea for responisive webpage --> screen shot at3.36
+
+-->  for all the problem sort out by one thing that can use the 2005 to 2010 ERA the tool are used to sort the probelem that is FLOAT , it is very useful tool floating images to get text to wrap around it.you can actually use float to create more complex layouts are well. --> screen shot at 4.40 and 4.50 
+
+--> float is great when you want to float an image to the left or the right of a block of the text wrap around the image But don't use floats for layout. --> Screen Shot at 5.28
+
+--> INSTEAD , use flexbox are Grid Bootstrap. something create for design overall page Structure SS at --> 5.39 , Flexbox is incredibly easy to use in order to create the layout that we've coveting , using all these diff tricks and diff hacks with flexbox , all you need to do is wrap your divs inside a container and then target that container in your CSS and set the Display to flex. All you need to do in order to get them to displayed in columns like this as you expect as in mordern website --> SS at 6.24, and great additional properties like GAP , where you can add in a gap between each of these items and there's a whole lot more that we're going to cover in this module and you're going to see just how flexible and easy it is to use Flexbox to create more complex layouts
+
+--> Flex is set one the Display Property | inline , block , inline-block , none , SS -> 7.19| this all are not use in the display property when in flex,that all are other rules , flex is diff rules 
+
+--> Some elements are defaults display values like eg Div is default BLock Diplay Value , Span is a default inline SS--> 8.11 | when you use flexbox and you enclose all od the elements that ypu want to display inside a flexible SS at --> 8.18 | in container , then what happens is all of these previous diplay values will be ignored SS at -->8.26, instead all are layout in Flexbox SS--> 8.31 width of the each of the elements inside the flexbox will normally be based on the content size you have all of your content diplayed in one line, SS--> at 8.41 | 
+ 
+--> you set the display : flex , It takes a full width of the webpage | if diplay: inline-flex what ever content occupy the same line  SS --> at 10.03 | 
+
+--> take exaple screenshots from display flex assignment
+
+--> cover at 17.06.23

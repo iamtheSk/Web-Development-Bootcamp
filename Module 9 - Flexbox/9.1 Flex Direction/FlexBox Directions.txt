@@ -1,0 +1,16 @@
+FlexBox Directions
+
+-->In this lesson learn about flex direction it use to modify the Flexbox order to achieve the layouts that we want. 
+
+--> HTML Flow goes top to bottom Flow , they will stack one on top of each other and they will continue like this --> SS at 0.47 |In flexbox we put everything inside a flexiable container , all of the items that are contained gets puts one this row --> SS at 1.04 , They go one after the other from left to right,the reason to get this there is flexbox property called FLex Direction. By default the set Direction along a Row --> SS at 1.45. Stack one the page one after the same row untill there is no more space and it's still going to try and continute to stack it from left to right in FlexBox.
+
+--> When you in FlexBox Set Flex-Direction : Row the you something set the main axis that is going left to right Horizontally .if set the flex direction into row the direction goes left to right --> SS at 2.15
+
+--> When you set something Cross Axis that is goes perpendicular to main axis , the cross axis goes top to bottom , if you did'nt set the flex direction default to row ,if set the flex Direction to Column Eg:Flex-direction: Columnn | it goes to make all of the content inside the container go from top to bottom --> SS at 2.59 | if you set flex-diection : column , now main axis is to top to bottom and cross-axis is to left to right(Flex-direction: row)
+
+--> Flex-basis property almost set-up the height in case increase the each flex element into 100px then use flex-basis:100px height --> SS at 3.47 | Flex - basis work upon the axix if you set the flex-direction : row then set the flex-basis:100px that will be reflect on the height of the flex element --> SS at 3.57| if you set the flex-direction : Column then set the flex-basis:100px that will be reflect on the width of the flex element --> SS at 4.38 | when it's row the flex-basis us the width , when it's column the flex-basis is the height, we flexing along the main axis -> SS at 4.54 | That's why main axis and cross axis matters when it comes to flex direction 
+
+--> in flex column or row that will take entire width of the screen width if need to change takes element width only the change display property into the Display:inline-flex ; 
+--> flex-basis set to the parent it not make any diff in webpage set the flex=basis into child for that use child selector and use universal selector ; Eg: .container > *
+
+cover on 17/06/23

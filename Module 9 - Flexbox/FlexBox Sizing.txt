@@ -1,0 +1,31 @@
+FlexBox Sizing 
+	Shrinlking and growing
+
+--> items in a flexbox container we can change about the flex items and the flex container in this topic we can cover how felx shrinking and growing and how should behave when it's responsive situations
+
+--> 4 ways to sizing in FlexBox is Content width< width < flex-basis < min-width/max-width | SS at --> 3.57 | 
+
+--> if provide a paragraph in flex if shirnk the webpage it automatically contene shrink untill reach the min width --> SS at 5.10 | maximum width shows the longest width of the line of the text , min width looks at the longest word to determine the min width --> SS at 5.53
+
+-->if you set the flex-items into width into 400 px if webpage overall width goes down the 400px then the texts are automatically shrink --> SS at 7.16
+
+-->if you set the flex-basis for provide width it will be overwrite the width property and also work like the width if your webpage go below to the elements min-width it shrink --> SS at 10.00
+
+-->min-width/max-width | max width is all of the content lined up, occuping the ideal state which is text everything on one line | The min-width is determined by the longest word | max - width determine how much the element max-width is smaller then flex basics then max-width will be apply for flex items . if flex-basics are smaller then the max-width then flex-basics will apply to Flex-items
+
+--> if items will shrink the page will shrink the items will grow when the webpage expand the grown size is untill the max-width, it determines how big the items can grow --> SS at 12.45
+
+--> Min - Width determines how small the items can Shrink too , if min-width larger than flex basis then the prority and the width apply by min-width value, it can't shrink beyond the size of min-with SS--> at 14.00
+
+--> Growing and shrinking is important in flexiable box because the it makes the responsive , you set the flex-grwo:0; , flex-shrink:0; --> there the items can't shrink anymore at are set in same size
+
+--> if you set the flex-grow:1; then the each items takes the remain space in webpage equally --> SS at 16.01
+
+-->if you set the flex-shrink:1; it can now shrinkable 
+
+-->if both flex-grow and shrink 1; then it grow as much posible and shrink also like that, it grow max-min-width it ignoes the flex-basics --> SS at 18.08
+
+-->The default flex basics is auto if you want every items get the equal width then you switch it off flex-basis into : 0;
+
+--> In Short we define those three like this FLEX: 1 1 0; first value is grow,second value is Shrink, The Third value is Basis --> SS at 19.15 | if you want provide 3 values equal then set the flex: 1 ; it determined the both 3 value equal -->19.33
+
