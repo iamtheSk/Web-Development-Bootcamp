@@ -1,0 +1,16 @@
+{
+  "name": "01-introduction",
+  "version": "1.0.0",
+  "description": "For intoduction of mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.4.1",
+    "node": "^20.5.0",
+    "nodemon": "^3.0.1"
+  }
+}
