@@ -1,0 +1,7 @@
+useEffect 
+
+In our functional component this Hook will also use at most
+
+This hook will use after our component initially render then execute some logic then use this 
+
+In our class component React life cycles that are componentdidmount , componentdidupdate  this two methods are use in class component this replaced by and use in functional component that are the useEffect 

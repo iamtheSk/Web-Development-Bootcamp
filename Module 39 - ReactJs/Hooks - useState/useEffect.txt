@@ -1,0 +1,17 @@
+useEffect 
+
+https://youtu.be/9DX9WXsmHYw
+
+In our functional component this Hook will also use at most
+
+This hook will use after our component initially render then execute some logic then use this 
+
+In our class component React life cycles that are componentdidmount , componentdidupdate  this two methods are use in class component this replaced by and use in functional component that are the useEffect  
+
+In the useEffect inside the callback function will provide this help after the component render this call back will execute
+
+UseStates 2nd parametr is one dependenices array inside we provide what changes made the useEffect will shown 
+
+in the effect hook parameter second value dependencies array we can provide any thing inside like variable, props , state
+
+Effect hook is sideeffect method after run our component is render any sideEffect we need to do then use this useEffect
